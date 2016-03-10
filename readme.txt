@@ -1,11 +1,10 @@
 === ACF Ninja Forms ===
-Contributors: bostondv
-Donate link: http://pomelodesign.com/donate
+Contributors: simmerer
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 Tags: ninja forms, acf, advanced custom fields, forms
 Requires at least: 3.8
-Tested up to: 4.2
+Tested up to: 4.4.2
 Stable tag: 1.0.3
 
 Adds an Advanced Custom Fields field to select one or many Ninja Forms.
@@ -23,7 +22,7 @@ The data returned is either a Form object or an array of Form objects.
 If you have selected a single form and you want to display the form on the page, you can use:
 
 `
-<?php 
+<?php
     $form = get_field('your_form_field');
     if ( function_exists( 'ninja_forms_display_form' ) ) {
         ninja_forms_display_form( $form[ 'id' ] );
@@ -46,11 +45,11 @@ If you are using the field to select multiple forms, you will have to iterate ov
 
 = About =
 
-Written by Boston Dell-Vandenberg of [Pomelo Design](http://www.pomelodesign.com). Pomelo Design is a web and mobile app development agency based in Toronto, Canada.
+Plugin modified by [David Simmer](http://simmerdesigns.com) to fill a need for a functional ACF 4.x-compatible add-on.
 
 = Credits =
 
-Thanks to Adam Pope for the [ACF Gravity Forms](https://github.com/stormuk/Gravity-Forms-ACF-Field) and Lewis Mcarey for the [Users Field ACF](https://github.com/lewismcarey/User-Field-ACF-Add-on) add-ons on which we based this on.
+Thanks to to [Chuck Mac](https://chuckmacdev.com/) for coming up with this Ninja Forms + ACF plugin, [Boston Dell-Vandenberg](http://www.pomelodesign.com) for a few additions, and Adam Pope for the [ACF Gravity Forms](https://github.com/stormuk/Gravity-Forms-ACF-Field) and Lewis Mcarey for the [Users Field ACF](https://github.com/lewismcarey/User-Field-ACF-Add-on) add-ons upon which this is all based.
 
 == Installation ==
 
