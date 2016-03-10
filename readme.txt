@@ -60,6 +60,7 @@ Thanks to Adam Pope for the [ACF Gravity Forms](https://github.com/stormuk/Gravi
 == Changelog ==
 
 = 1.0.3 =
+
 * Fix to enable ACF v4 support
 
 = 1.0.2 =
