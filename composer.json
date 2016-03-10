@@ -1,9 +1,9 @@
 {
-  "name": "bostondv/acf-ninja-forms",
+  "name": "simmerer/acf-ninja-forms",
   "type": "wordpress-plugin",
   "license": "MIT",
   "description": "Adds an Advanced Custom Fields field to select one or many Ninja Forms.",
-  "homepage": "https://github.com/bostondv/acf-ninja-forms",
+  "homepage": "https://github.com/simmer/acf-ninja-forms",
   "authors": [
     {
       "name": "Boston Dell-Vandenberg",
@@ -20,7 +20,7 @@
     "forms"
   ],
   "support": {
-    "issues": "https://github.com/bostondv/acf-ninja-forms/issues/"
+    "issues": "https://github.com/simmerer/acf-ninja-forms/issues/"
   },
   "require": {
     "php": ">=5.4.0",
