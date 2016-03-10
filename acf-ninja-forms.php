@@ -4,7 +4,7 @@ Plugin Name: Advanced Custom Fields: Ninja Forms Field
 Plugin URI: https://github.com/simmerer/acf-ninja-forms
 Description: Adds an Advanced Custom Fields field to select one or many Ninja Forms.
 Version: 1.0.3
-Author: simmerer
+Author: David Simmer
 Author URI: http://simmerdesigns.com
 License: MIT
 License URI: http://opensource.org/licenses/MIT
