@@ -4,7 +4,7 @@ This is an Advanced Custom Field custom field to select one or many [Ninja Forms
 
 ## Compatibility
 
-* ACF version 5 and up
+* ACF version 4 and up. Prior versions had an incompatibility with ACF v4, which has been fixed here.
 
 ## Installation
 
